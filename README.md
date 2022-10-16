@@ -8,8 +8,6 @@ but one project is excluded from hackoctoberfest event then your pull request wi
 then you have remains 3 valid pull request if these projects is not excluded.
 if you fail to make 4 pull request then you cant get swags or t-shirts.
 
-i will recommend you make pull request to your own repo which is very very saffest side for you..
-keep in mind that repo has hacktoberfest topic..
 '''
 ```
 ## Rules
@@ -24,5 +22,4 @@ keep in mind that repo has hacktoberfest topic..
 - If a maintainer reports your pull request as spam, it will not be counted toward your participation in Hacktoberfest.
 - If a maintainer reports behavior that’s not in line with the project’s code of conduct, you will be ineligible to participate.
 - To get a shirt, you must make four approved pull requests (PRs) on opted-in projects between October 1-31 in any time zone.
-- This year, the first 50,000 participants can earn a T-shirt.
 ---
