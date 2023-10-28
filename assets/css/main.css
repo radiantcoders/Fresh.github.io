@@ -2299,6 +2299,9 @@ ul.social-link-team li a {
   position: relative;
   
 }
+.contact-form .radiocod .list .not{
+  cursor: not-allowed;
+}
 
 .contact-form .list label{
   padding: 10px 131px 10px 14px;
