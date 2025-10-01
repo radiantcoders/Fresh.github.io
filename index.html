@@ -1,704 +1,785 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Responsive Bootstrap4 Shop Template, Created by Imran Hossain from https://imransdesign.com/" />
 
-	<!-- title -->
-	<title>Fresh</title>
+    <!-- title -->
+    <title>Fresh</title>
 
-	<!-- favicon -->
-	<link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
-	<!-- google font -->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
-	<!-- fontawesome -->
-	<link rel="stylesheet" href="assets/css/all.min.css">
-	<!-- bootstrap -->
-	<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-	<!-- owl carousel -->
-	<link rel="stylesheet" href="assets/css/owl.carousel.css">
-	<!-- magnific popup -->
-	<link rel="stylesheet" href="assets/css/magnific-popup.css">
-	<!-- animate css -->
-	<link rel="stylesheet" href="assets/css/animate.css">
-	<!-- mean menu css -->
-	<link rel="stylesheet" href="assets/css/meanmenu.min.css">
-	<!-- main style -->
-	<link rel="stylesheet" href="assets/css/main.css">
-	<!-- responsive -->
-	<link rel="stylesheet" href="assets/css/responsive.css">
-
-</head>
-<div class="social">
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="assets/img/favicon.png" />
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet" />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.css" />
+    <!-- magnific popup -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <!-- animate css -->
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <!-- mean menu css -->
+    <link rel="stylesheet" href="assets/css/meanmenu.min.css" />
+    <!-- main style -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- responsive -->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+  <div class="social">
     <a href="https://www.facebook.com/" target="blank">Facebook <i class="fab fa-facebook"></i></a>
-    <a href="https://web.whatsapp.com/send?phone=+91 7420985248" target="blank">WhatsApp <i class="fab fa-whatsapp"></i></a>
+    <a href="https://web.whatsapp.com/send?phone=+91 7420985248" target="blank"
+      >WhatsApp <i class="fab fa-whatsapp"></i
+    ></a>
     <a href="https://www.instagram.com/" target="blank">Instagram <i class="fab fa-instagram"></i></a>
-    
-</div>
-<style>
- 
+  </div>
+  <style>
+    .social {
+      position: fixed;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      transform: translate(-290px, 0);
+    }
 
-	.social{
-	  position: fixed;
-	  height: 100vh;
-	  display: flex;
-	  flex-direction: column;
-	  justify-content: center;
-	  transform: translate(-290px, 0);
-	}
-	
-	.social a{
-	  color: #fff;
-	  background: rgba(0, 0, 0);
-	  font-size: 20px;
-	  font-weight: 600;
-	  text-decoration: none;
-	  display: block;
-	  margin: 5px;
-	  padding: 20px;
-	  width: 337px;
-	  text-align: right;
-	  border-radius: 50px;
-	  transition: 1s;
-	  transition-property: transform;
-	}
-	
-	.social a:hover{
-	  transform: translate(140px, 0);
-	  
-	}
-	
-	.social i{
-	  margin-left: 10px;
-	  font-size: 30px;
-	  width: 30px;
-	  height: 30px;
-	}
-	
-	.social a:nth-child(1) i{
-	  color: #1DA0F0;
-	}
-	
-	.social a:nth-child(2) i{
-	  color: #F80000;
-	}
-	
-	.social a:nth-child(3) i{
-	  color: transparent;
-	  background-image: linear-gradient(45deg, #FFDF9E, #E56969, #8A49A1);
-	  -webkit-background-clip: text;
-	  font-weight: 600;
-	}
-	
-	.social a:nth-child(4) i{
-	  color: #4ECCE8;
-	}
-							   
-	  </style>
-<body>
-	
-	<!--PreLoader-->
+    .social a {
+      color: #fff;
+      background: rgba(0, 0, 0);
+      font-size: 20px;
+      font-weight: 600;
+      text-decoration: none;
+      display: block;
+      margin: 5px;
+      padding: 20px;
+      width: 337px;
+      text-align: right;
+      border-radius: 50px;
+      transition: 1s;
+      transition-property: transform;
+    }
+
+    .social a:hover {
+      transform: translate(140px, 0);
+    }
+
+    .social i {
+      margin-left: 10px;
+      font-size: 30px;
+      width: 30px;
+      height: 30px;
+    }
+
+    .social a:nth-child(1) i {
+      color: #1da0f0;
+    }
+
+    .social a:nth-child(2) i {
+      color: #f80000;
+    }
+
+    .social a:nth-child(3) i {
+      color: transparent;
+      background-image: linear-gradient(45deg, #ffdf9e, #e56969, #8a49a1);
+      -webkit-background-clip: text;
+      font-weight: 600;
+    }
+
+    .social a:nth-child(4) i {
+      color: #4ecce8;
+    }
+  </style>
+  <body>
+    <!--PreLoader-->
     <div class="loader">
-        <div class="loader-inner">
-            <div class="circle"></div>
-        </div>
+      <div class="loader-inner">
+        <div class="circle"></div>
+      </div>
     </div>
     <!--PreLoader Ends-->
-	
-	<!-- header -->
-	<div class="top-header-area" id="sticker">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 col-sm-12 text-center">
-					<div class="main-menu-wrap">
-						<!-- logo -->
-						<div class="site-logo">
-							<a href="index.html">
-								<img src="assets/img/logo.png" alt="">
-							</a>
-						</div>
-						<!-- logo -->
 
-						<!-- menu start -->
-						<nav class="main-menu">
-							<ul>
-								<li class="current-list-item"><a href="index.html">Home</a>
-									<!-- <ul class="sub-menu">
+    <!-- header -->
+    <div class="top-header-area" id="sticker">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-sm-12 text-center">
+            <div class="main-menu-wrap">
+              <!-- logo -->
+              <div class="site-logo">
+                <a href="index.html">
+                  <img src="assets/img/logo.png" alt="" />
+                </a>
+              </div>
+              <!-- logo -->
+
+              <!-- menu start -->
+              <nav class="main-menu">
+                <ul>
+                  <li class="current-list-item">
+                    <a href="index.html">Home</a>
+                    <!-- <ul class="sub-menu">
 										<li><a href="index.html">Static Home</a></li>
 										<li><a href="index_2.html">Slider Home</a></li>
 									</ul> -->
-								</li>
-								<li><a href="about.html">About</a></li>
-								
-								<li><a href="contact.html">Contact</a></li>
-								<li><a href="shop.html">Shop</a>
-									
-								</li>
-								<li>
-									<div class="header-icons">
-										<a class="shopping-cart" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
-										<a class="mobile-hide search-bar-icon" href="#"><i class="fas fa-search"></i></a>
-									</div>
-								</li>
-							</ul>
-						</nav>
-						<a class="mobile-show search-bar-icon" href="#"><i class="fas fa-search"></i></a>
-						<div class="mobile-menu"></div>
-						<!-- menu end -->
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- end header -->
-	
-	<!-- search area -->
-	<div class="search-area">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<span class="close-btn"><i class="fas fa-window-close"></i></span>
-					<div class="search-bar">
-						<div class="search-bar-tablecell">
-							<h3>Search For:</h3>
-							<input type="text" placeholder="Keywords">
-							<button type="submit">Search <i class="fas fa-search"></i></button>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- end search area -->
+                  </li>
+                  <li><a href="about.html">About</a></li>
 
-	<!-- home page slider -->
-	<div class="homepage-slider">
-		<!-- single home slider -->
-		<div class="single-homepage-slider homepage-bg-1">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 col-lg-7 offset-lg-1 offset-xl-0">
-						<div class="hero-text">
-							<div class="hero-text-tablecell">
-								<p class="subtitle">Fresh & Organic</p>
-								<h1>Delicious Seasonal Fruit juice</h1>
-								<div class="hero-btns">
-									<a href="shop.html" class="boxed-btn">Fruit Collection</a>
-									<a href="contact.html" class="bordered-btn">Contact Us</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- single home slider -->
-		<div class="single-homepage-slider homepage-bg-2">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-10 offset-lg-1 text-center">
-						<div class="hero-text">
-							<div class="hero-text-tablecell">
-								<p class="subtitle">Fresh Everyday</p>
-								<h1>100% Organic Collection</h1>
-								<div class="hero-btns">
-									<a href="shop.html" class="boxed-btn">Visit Shop</a>
-									<a href="contact.html" class="bordered-btn">Contact Us</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- single home slider -->
-		<div class="single-homepage-slider homepage-bg-3">
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-10 offset-lg-1 text-right">
-						<div class="hero-text">
-							<div class="hero-text-tablecell">
-								<p class="subtitle">Mega Sale Going On!</p>
-								<h1>Get Summer Discount</h1>
-								<div class="hero-btns">
-									<a href="shop.html" class="boxed-btn">Visit Shop</a>
-									<a href="contact.html" class="bordered-btn">Contact Us</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- end home page slider -->
-
-	<!-- features list section -->
-	<div class="list-section pt-80 pb-80">
-		<div class="container">
-
-			<div class="row">
-				<div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-					<div class="list-box d-flex align-items-center">
-						<div class="list-icon">
-							<i class="fas fa-shipping-fast"></i>
-						</div>
-						<div class="content">
-							<h3>Free Shipping*</h3>
-							<p>On each order</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-					<div class="list-box d-flex align-items-center">
-						<div class="list-icon">
-							<i class="fas fa-phone-volume"></i>
-						</div>
-						<div class="content">
-							<h3>24/7 Support</h3>
-							<p>Get support all day</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="list-box d-flex justify-content-start align-items-center">
-						<div class="list-icon">
-							<i class="fas fa-sync"></i>
-						</div>
-						<div class="content">
-							<h3>Refreshing</h3>
-							<p></p>
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</div>
-	</div>
-	<!-- end features list section -->
-
-	<!-- product section -->
-	<div class="product-section mt-150 mb-150">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 offset-lg-2 text-center">
-					<div class="section-title">	
-						<h3><span class="orange-text">Our</span> Products</h3>
-						<p>100% fruit, 0% anything else</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-lg-4 col-md-6 text-center">
-					<div class="single-product-item">
-						<div class="product-image">
-							<a href="pink-pom.html" target="_blank"><img src="assets/img/products/redjuice.png" alt=""></a>
-						</div>
-						
-						<h3>Pink Pom</h3>
-						<p class="product-price"><span>200mL</span><span><del> Rs.60</del></span><ins>Rs.35</ins> </p>
-						<a href="Check.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Buy Now</a>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 text-center">
-					<div class="single-product-item">
-						<div class="product-image">
-							<a href="Green.html" target="_blank"><img src="assets/img/products/17b.png" alt=""></a>
-						</div>
-						<h3>Greens Goddess</h3>
-						<p class="product-price"><span>200mL</span> <span><del> Rs.60</del></span><ins>Rs.35</ins> </p>
-						<a href="Check.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Buy Now</a>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0 text-center">
-					<div class="single-product-item">
-						<div class="product-image">
-							<a href="carrot.html" target="_blank"><img src="assets/img/products/orange.png" alt=""></a>
-						</div>
-						<h3>Carrot Rush</h3>
-						<p class="product-price"><span>200mL</span> <span><del> Rs.60</del></span><ins>Rs.35</ins></p>
-						<a href="Check.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Buy Now</a>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0 text-center">
-					<div class="single-product-item">
-						<div class="product-image">
-							<a href="red.html" target="_blank"><img src="assets/img/products/beat.png" alt=""></a>
-						</div>
-						<h3>Red Shot</h3>
-						<p class="product-price"><span>200mL</span> <span><del> Rs.60</del></span><ins>Rs.35</ins> </p>
-						<a href="Check.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Buy Now</a>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0 text-center">
-					<div class="single-product-item">
-						<div class="product-image">
-							<a href="yellow.html" target="_blank"><img src="assets/img/products/yellow.png" alt=""></a>
-						</div>
-						<h3>Tropical Boost</h3>
-						<p class="product-price"><span>200mL</span> <span><del> Rs.60</del></span><ins>Rs.35</ins> </p>
-						<a href="Check.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Buy Now</a>
-					</div>
-					<a href="shop.html" target="_blank" class="cart-btn"><i class="fas fa-angle-double-right"></i> E x p l o r e</a>
-				</div>
-				<div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0 text-center">
-					<div class="single-product-item">
-						<div class="product-image">
-							<a href="single-product.html"><img src="assets/img/products/18b.png" alt=""></a>
-						</div>
-						<h3>Veggie Delight</h3>
-						<p class="product-price"><span>200mL</span> <span><del> Rs.60</del></span><ins>Rs.35</ins> </p>
-						<a href="Check.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Buy Now</a>
-					</div>
-					
-				</div>
-
-				<div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0 text-center">
-					<div class="single-product-item">
-						<div class="product-image">
-							<a href="red.html" target="_blank"><img src="assets/img/products/beat.png" alt=""></a>
-						</div>
-						<h3>Red Shot</h3>
-						<p class="product-price"><span>200mL</span> <span><del> Rs.60</del></span><ins>Rs.35</ins> </p>
-						<a href="Check.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Buy Now</a>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0 text-center">
-					<div class="single-product-item">
-						<div class="product-image">
-							<a href="yellow.html" target="_blank"><img src="assets/img/products/yellow.png" alt=""></a>
-						</div>
-						<h3>Tropical Boost</h3>
-						<p class="product-price"><span>200mL</span> <span><del> Rs.60</del></span><ins>Rs.35</ins> </p>
-						<a href="Check.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Buy Now</a>
-					</div>
-					<a href="shop.html" target="_blank" class="cart-btn"><i class="fas fa-angle-double-right"></i> E x p l o r e</a>
-				</div>
-				<div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0 text-center">
-					<div class="single-product-item">
-						<div class="product-image">
-							<a href="single-product.html"><img src="assets/img/products/18b.png" alt=""></a>
-						</div>
-						<h3>Veggie Delight</h3>
-						<p class="product-price"><span>200mL</span> <span><del> Rs.60</del></span><ins>Rs.35</ins> </p>
-						<a href="Check.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Buy Now</a>
-					</div>
-					
-				</div>
-				
-			</div>
-		</div>
-	</div>
-	<!-- end product section -->
-
-	<!-- cart banner section -->
-	<section class="cart-banner pt-100 pb-100">
-    	<div class="container">
-        	<div class="row clearfix">
-            	<!--Image Column-->
-            	<div class="image-column col-lg-6">
-                	<div class="image">
-                    	<div class="price-box">
-                        	<div class="inner-price">
-                                <span class="price">
-                                    <strong>50%</strong> <br>Off
-                                </span>
-                            </div>
-                        </div>
-                    	<img src="assets/img/a.jpg" alt="">
+                  <li><a href="contact.html">Contact</a></li>
+                  <li><a href="shop.html">Shop</a></li>
+                  <li>
+                    <div class="header-icons">
+                      <a class="shopping-cart" href="cart.html"><i class="fas fa-shopping-cart"></i></a>
+                      <a class="mobile-hide search-bar-icon" href="#"><i class="fas fa-search"></i></a>
                     </div>
-                </div>
-                <!--Content Column-->
-                <div class="content-column col-lg-6">
-					<h3><span class="orange-text">Deal</span> of the month</h3>
-                    <h4>Monthly Subscription </h4>
-                    <div class="text">Quisquam minus maiores repudiandae nobis, minima saepe id, fugit ullam similique! Beatae, minima quisquam molestias facere ea. Perspiciatis unde omnis iste natus error sit voluptatem accusant</div>
-                    <!--Countdown Timer-->
-                    <div class="time-counter"><div class="time-countdown clearfix" data-countdown="2020/2/01"><div class="counter-column"><div class="inner"><span class="count">00</span>Days</div></div> <div class="counter-column"><div class="inner"><span class="count">00</span>Hours</div></div>  <div class="counter-column"><div class="inner"><span class="count">00</span>Mins</div></div>  <div class="counter-column"><div class="inner"><span class="count">00</span>Secs</div></div></div></div>
-                	<a href="cart.html" class="cart-btn mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
-                </div>
+                  </li>
+                </ul>
+              </nav>
+              <a class="mobile-show search-bar-icon" href="#"><i class="fas fa-search"></i></a>
+              <div class="mobile-menu"></div>
+              <!-- menu end -->
             </div>
+          </div>
         </div>
+      </div>
+    </div>
+    <!-- end header -->
+
+    <!-- search area -->
+    <div class="search-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <span class="close-btn"><i class="fas fa-window-close"></i></span>
+            <div class="search-bar">
+              <div class="search-bar-tablecell">
+                <h3>Search For:</h3>
+                <input type="text" placeholder="Keywords" />
+                <button type="submit">Search <i class="fas fa-search"></i></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end search area -->
+
+    <!-- home page slider -->
+    <div class="homepage-slider">
+      <!-- single home slider -->
+      <div class="single-homepage-slider homepage-bg-1">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 col-lg-7 offset-lg-1 offset-xl-0">
+              <div class="hero-text">
+                <div class="hero-text-tablecell">
+                  <p class="subtitle">Fresh & Organic</p>
+                  <h1>Delicious Seasonal Fruit juice</h1>
+                  <div class="hero-btns">
+                    <a href="shop.html" class="boxed-btn">Fruit Collection</a>
+                    <a href="contact.html" class="bordered-btn">Contact Us</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- single home slider -->
+      <div class="single-homepage-slider homepage-bg-2">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 offset-lg-1 text-center">
+              <div class="hero-text">
+                <div class="hero-text-tablecell">
+                  <p class="subtitle">Fresh Everyday</p>
+                  <h1>100% Organic Collection</h1>
+                  <div class="hero-btns">
+                    <a href="shop.html" class="boxed-btn">Visit Shop</a>
+                    <a href="contact.html" class="bordered-btn">Contact Us</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- single home slider -->
+      <div class="single-homepage-slider homepage-bg-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-10 offset-lg-1 text-right">
+              <div class="hero-text">
+                <div class="hero-text-tablecell">
+                  <p class="subtitle">Mega Sale Going On!</p>
+                  <h1>Get Summer Discount</h1>
+                  <div class="hero-btns">
+                    <a href="shop.html" class="boxed-btn">Visit Shop</a>
+                    <a href="contact.html" class="bordered-btn">Contact Us</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end home page slider -->
+
+    <!-- features list section -->
+    <div class="list-section pt-80 pb-80">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+            <div class="list-box d-flex align-items-center">
+              <div class="list-icon">
+                <i class="fas fa-shipping-fast"></i>
+              </div>
+              <div class="content">
+                <h3>Free Shipping*</h3>
+                <p>On each order</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+            <div class="list-box d-flex align-items-center">
+              <div class="list-icon">
+                <i class="fas fa-phone-volume"></i>
+              </div>
+              <div class="content">
+                <h3>24/7 Support</h3>
+                <p>Get support all day</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="list-box d-flex justify-content-start align-items-center">
+              <div class="list-icon">
+                <i class="fas fa-sync"></i>
+              </div>
+              <div class="content">
+                <h3>Refreshing</h3>
+                <p></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end features list section -->
+
+    <!-- product section -->
+    <div class="product-section mt-150 mb-150">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2 text-center">
+            <div class="section-title">
+              <h3><span class="orange-text">Our</span> Products</h3>
+              <p>100% fruit, 0% anything else</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="single-product-item">
+              <div class="product-image">
+                <a href="pink-pom.html" target="_blank"><img src="assets/img/products/redjuice.png" alt="" /></a>
+              </div>
+
+              <h3>Pink Pom</h3>
+              <p class="product-price">
+                <span>200mL</span><span><del> Rs.60</del></span
+                ><ins>Rs.35</ins>
+              </p>
+              <a href="Check.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Buy Now</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="single-product-item">
+              <div class="product-image">
+                <a href="Green.html" target="_blank"><img src="assets/img/products/17b.png" alt="" /></a>
+              </div>
+              <h3>Greens Goddess</h3>
+              <p class="product-price">
+                <span>200mL</span> <span><del> Rs.60</del></span
+                ><ins>Rs.35</ins>
+              </p>
+              <a href="Check.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Buy Now</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0 text-center">
+            <div class="single-product-item">
+              <div class="product-image">
+                <a href="carrot.html" target="_blank"><img src="assets/img/products/orange.png" alt="" /></a>
+              </div>
+              <h3>Carrot Rush</h3>
+              <p class="product-price">
+                <span>200mL</span> <span><del> Rs.60</del></span
+                ><ins>Rs.35</ins>
+              </p>
+              <a href="Check.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Buy Now</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0 text-center">
+            <div class="single-product-item">
+              <div class="product-image">
+                <a href="red.html" target="_blank"><img src="assets/img/products/beat.png" alt="" /></a>
+              </div>
+              <h3>Red Shot</h3>
+              <p class="product-price">
+                <span>200mL</span> <span><del> Rs.60</del></span
+                ><ins>Rs.35</ins>
+              </p>
+              <a href="Check.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Buy Now</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0 text-center">
+            <div class="single-product-item">
+              <div class="product-image">
+                <a href="yellow.html" target="_blank"><img src="assets/img/products/yellow.png" alt="" /></a>
+              </div>
+              <h3>Tropical Boost</h3>
+              <p class="product-price">
+                <span>200mL</span> <span><del> Rs.60</del></span
+                ><ins>Rs.35</ins>
+              </p>
+              <a href="Check.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Buy Now</a>
+            </div>
+            <a href="shop.html" target="_blank" class="cart-btn"
+              ><i class="fas fa-angle-double-right"></i> E x p l o r e</a
+            >
+          </div>
+          <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0 text-center">
+            <div class="single-product-item">
+              <div class="product-image">
+                <a href="single-product.html"><img src="assets/img/products/18b.png" alt="" /></a>
+              </div>
+              <h3>Veggie Delight</h3>
+              <p class="product-price">
+                <span>200mL</span> <span><del> Rs.60</del></span
+                ><ins>Rs.35</ins>
+              </p>
+              <a href="Check.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Buy Now</a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0 text-center">
+            <div class="single-product-item">
+              <div class="product-image">
+                <a href="red.html" target="_blank"><img src="assets/img/products/beat.png" alt="" /></a>
+              </div>
+              <h3>Red Shot</h3>
+              <p class="product-price">
+                <span>200mL</span> <span><del> Rs.60</del></span
+                ><ins>Rs.35</ins>
+              </p>
+              <a href="Check.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Buy Now</a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0 text-center">
+            <div class="single-product-item">
+              <div class="product-image">
+                <a href="yellow.html" target="_blank"><img src="assets/img/products/yellow.png" alt="" /></a>
+              </div>
+              <h3>Tropical Boost</h3>
+              <p class="product-price">
+                <span>200mL</span> <span><del> Rs.60</del></span
+                ><ins>Rs.35</ins>
+              </p>
+              <a href="Check.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Buy Now</a>
+            </div>
+            <a href="shop.html" target="_blank" class="cart-btn"
+              ><i class="fas fa-angle-double-right"></i> E x p l o r e</a
+            >
+          </div>
+          <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0 text-center">
+            <div class="single-product-item">
+              <div class="product-image">
+                <a href="single-product.html"><img src="assets/img/products/18b.png" alt="" /></a>
+              </div>
+              <h3>Veggie Delight</h3>
+              <p class="product-price">
+                <span>200mL</span> <span><del> Rs.60</del></span
+                ><ins>Rs.35</ins>
+              </p>
+              <a href="Check.html" class="cart-btn"><i class="fas fa-shopping-cart"></i> Buy Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end product section -->
+
+    <!-- cart banner section -->
+    <section class="cart-banner pt-100 pb-100">
+      <div class="container">
+        <div class="row clearfix">
+          <!--Image Column-->
+          <div class="image-column col-lg-6">
+            <div class="image">
+              <div class="price-box">
+                <div class="inner-price">
+                  <span class="price"> <strong>50%</strong> <br />Off </span>
+                </div>
+              </div>
+              <img src="assets/img/a.jpg" alt="" />
+            </div>
+          </div>
+          <!--Content Column-->
+          <div class="content-column col-lg-6">
+            <h3><span class="orange-text">Deal</span> of the month</h3>
+            <h4>Monthly Subscription</h4>
+            <div class="text">
+              Quisquam minus maiores repudiandae nobis, minima saepe id, fugit ullam similique! Beatae, minima quisquam
+              molestias facere ea. Perspiciatis unde omnis iste natus error sit voluptatem accusant
+            </div>
+            <!--Countdown Timer-->
+            <div class="time-counter">
+              <div class="time-countdown clearfix" data-countdown="2020/2/01">
+                <div class="counter-column">
+                  <div class="inner"><span class="count">00</span>Days</div>
+                </div>
+                <div class="counter-column">
+                  <div class="inner"><span class="count">00</span>Hours</div>
+                </div>
+                <div class="counter-column">
+                  <div class="inner"><span class="count">00</span>Mins</div>
+                </div>
+                <div class="counter-column">
+                  <div class="inner"><span class="count">00</span>Secs</div>
+                </div>
+              </div>
+            </div>
+            <a href="cart.html" class="cart-btn mt-3"><i class="fas fa-shopping-cart"></i> Add to Cart</a>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- end cart banner section -->
 
-	<!-- testimonail-section -->
-	<div class="testimonail-section mt-150 mb-150">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-10 offset-lg-1 text-center">
-					<div class="testimonial-sliders">
-						<div class="single-testimonial-slider">
-							<div class="client-avater">
-								<img src="assets/img/team/icon1.png" alt="">
-							</div>
-							<div class="client-meta">
-								<h3>Maximum nutrition</h3>
-								<p class="testimonial-body">
-									" Blending or grinding juice creates heat and introduces oxygen into juice, denaturing fruits and vegetables. A hydraulic press juicer extracts nectar directly from the pulp, allowing you to enjoy the most concentrated amount of vital nutrients and enzymes."
-								</p>
-								<div class="last-icon">
-									<i class="fas fa-quote-right"></i>
-								</div>
-							</div>
-						</div>
-						<div class="single-testimonial-slider">
-							<div class="client-avater">
-								<img src="assets/img/team/icon3.png" alt="">
-							</div>
-							<div class="client-meta">
-								<h3>Faster absorption</h3>
-								<p class="testimonial-body">
-									" The elimination of fibrous pulp reduces the body's work to digest nutrients. These nutrients will then pass through the stomach into the digestive tract, where they are absorbed quickly. Get ready to feel the buzz! "
-								</p>
-								<div class="last-icon">
-									<i class="fas fa-quote-right"></i>
-								</div>
-							</div>
-						</div>
-						<div class="single-testimonial-slider">
-							<div class="client-avater">
-								<img src="assets/img/team/icon2.png" alt="">
-							</div>
-							<div class="client-meta">
-								<h3>Super fresh</h3>
-								<p class="testimonial-body">
-									" True cold-pressed juice is never processed or pasteurized. We produce every day, providing you with the freshest juice possible. Our juice is best enjoyed within three days of pressing to ensure maximum nutrition."
-								</p>
-								<div class="last-icon">
-									<i class="fas fa-quote-right"></i>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- end testimonail-section -->
-	
-	<!-- advertisement section -->
-	<div class="abt-section mb-150">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-md-12">
-					<div class="abt-bg">
-						<!-- <a href="https://www.youtube.com/watch?v=DBLlFWYcIGQ" class="video-play-btn popup-youtube"><i class="fas fa-play"></i></a> -->
-					</div>
-				</div>
-				<div class="col-lg-6 col-md-12">
-					<div class="abt-text">
-						<p class="top-sub">Since Year 2022</p>
-						<h2>We are <span class="orange-text">Fresh</span></h2>
-						<p>As we are committed to giving the best to society, we avoid harmful practices that can be commercially beneficial but not at all healthy. Therefore, we strictly follow this "NO" policy.</p>
-						<p>Added Sugar, Preservative, Color, and Flavour are not a healthy option to add to food like juice. Pasteurization kills almost all natural nutrition.</p>
-						<a href="about.html" class="boxed-btn mt-4">know more</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- end advertisement section -->
-	
-	<!-- shop banner -->
-	<section class="shop-banner">
-    	<div class="container">
-        	<h3>Summer sale is on! <br> with big <span class="orange-text">Discount...</span></h3>
-            <div class="sale-percent"><span>Sale! <br> Upto</span>50% <span>off</span></div>
-            <a href="shop.html" class="cart-btn btn-lg">Shop Now</a>
+    <!-- testimonail-section -->
+    <div class="testimonail-section mt-150 mb-150">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 offset-lg-1 text-center">
+            <div class="testimonial-sliders">
+              <div class="single-testimonial-slider">
+                <div class="client-avater">
+                  <img src="assets/img/team/icon1.png" alt="" />
+                </div>
+                <div class="client-meta">
+                  <h3>Maximum nutrition</h3>
+                  <p class="testimonial-body">
+                    " Blending or grinding juice creates heat and introduces oxygen into juice, denaturing fruits and
+                    vegetables. A hydraulic press juicer extracts nectar directly from the pulp, allowing you to enjoy
+                    the most concentrated amount of vital nutrients and enzymes."
+                  </p>
+                  <div class="last-icon">
+                    <i class="fas fa-quote-right"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="single-testimonial-slider">
+                <div class="client-avater">
+                  <img src="assets/img/team/icon3.png" alt="" />
+                </div>
+                <div class="client-meta">
+                  <h3>Faster absorption</h3>
+                  <p class="testimonial-body">
+                    " The elimination of fibrous pulp reduces the body's work to digest nutrients. These nutrients will
+                    then pass through the stomach into the digestive tract, where they are absorbed quickly. Get ready
+                    to feel the buzz! "
+                  </p>
+                  <div class="last-icon">
+                    <i class="fas fa-quote-right"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="single-testimonial-slider">
+                <div class="client-avater">
+                  <img src="assets/img/team/icon2.png" alt="" />
+                </div>
+                <div class="client-meta">
+                  <h3>Super fresh</h3>
+                  <p class="testimonial-body">
+                    " True cold-pressed juice is never processed or pasteurized. We produce every day, providing you
+                    with the freshest juice possible. Our juice is best enjoyed within three days of pressing to ensure
+                    maximum nutrition."
+                  </p>
+                  <div class="last-icon">
+                    <i class="fas fa-quote-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
+    </div>
+    <!-- end testimonail-section -->
+
+    <!-- advertisement section -->
+    <div class="abt-section mb-150">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <div class="abt-bg">
+              <!-- <a href="https://www.youtube.com/watch?v=DBLlFWYcIGQ" class="video-play-btn popup-youtube"><i class="fas fa-play"></i></a> -->
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="abt-text">
+              <p class="top-sub">Since Year 2022</p>
+              <h2>We are <span class="orange-text">Fresh</span></h2>
+              <p>
+                As we are committed to giving the best to society, we avoid harmful practices that can be commercially
+                beneficial but not at all healthy. Therefore, we strictly follow this "NO" policy.
+              </p>
+              <p>
+                Added Sugar, Preservative, Color, and Flavour are not a healthy option to add to food like juice.
+                Pasteurization kills almost all natural nutrition.
+              </p>
+              <a href="about.html" class="boxed-btn mt-4">know more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end advertisement section -->
+
+    <!-- shop banner -->
+    <section class="shop-banner">
+      <div class="container">
+        <h3>
+          Summer sale is on! <br />
+          with big <span class="orange-text">Discount...</span>
+        </h3>
+        <div class="sale-percent">
+          <span
+            >Sale! <br />
+            Upto</span
+          >50% <span>off</span>
+        </div>
+        <a href="shop.html" class="cart-btn btn-lg">Shop Now</a>
+      </div>
     </section>
-	<!-- end shop banner -->
+    <!-- end shop banner -->
 
-	<!-- latest news -->
-	<div class="latest-news pt-150 pb-150">
-		<div class="container">
+    <!-- latest news -->
+    <div class="latest-news pt-150 pb-150">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 offset-lg-2 text-center">
+            <div class="section-title">
+              <h3><span class="orange-text">Why</span> Juice?</h3>
+              <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, fuga quas itaque eveniet beatae optio.</p> -->
+            </div>
+          </div>
+        </div>
 
-			<div class="row">
-				<div class="col-lg-8 offset-lg-2 text-center">
-					<div class="section-title">	
-						<h3><span class="orange-text">Why</span> Juice?</h3>
-						<!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, fuga quas itaque eveniet beatae optio.</p> -->
-					</div>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-lg-4 col-md-6">
-					<div class="single-latest-news">
-						<a href="#"><div class="latest-news-bg news-bg-1"></div></a>
-						<div class="news-text-box">
-							<h3><a href="#">Better health</a></h3>
-							<!-- <p class="blog-meta">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="single-latest-news">
+              <a href="#"><div class="latest-news-bg news-bg-1"></div></a>
+              <div class="news-text-box">
+                <h3><a href="#">Better health</a></h3>
+                <!-- <p class="blog-meta">
 								<span class="author"><i class="fas fa-user"></i> Admin</span>
 								<span class="date"><i class="fas fa-calendar"></i> 27 December, 2019</span>
 							</p> -->
-							<p class="excerpt">Our modern diet doesn't give us all the nutrients we need, which results in poor nutrition, obesity, and high incidence rates of disease (trust us, the data is not good). Research shows that people who drink juice daily have greater energy, glowing complexions, high performing immune systems and a reduced risk of disease. As a result, they live happier, more active and balanced lifestyles.</p>
-							<a href="#" class="read-more-btn">read more <i class="fas fa-angle-right"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6">
-					<div class="single-latest-news">
-						<a href="#"><div class="latest-news-bg news-bg-2"></div></a>
-						<div class="news-text-box">
-							<h3><a href="#">More convenient</a></h3>
-							<!-- <p class="blog-meta">
+                <p class="excerpt">
+                  Our modern diet doesn't give us all the nutrients we need, which results in poor nutrition, obesity,
+                  and high incidence rates of disease (trust us, the data is not good). Research shows that people who
+                  drink juice daily have greater energy, glowing complexions, high performing immune systems and a
+                  reduced risk of disease. As a result, they live happier, more active and balanced lifestyles.
+                </p>
+                <a href="#" class="read-more-btn">read more <i class="fas fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="single-latest-news">
+              <a href="#"><div class="latest-news-bg news-bg-2"></div></a>
+              <div class="news-text-box">
+                <h3><a href="#">More convenient</a></h3>
+                <!-- <p class="blog-meta">
 								<span class="author"><i class="fas fa-user"></i> Admin</span>
 								<span class="date"><i class="fas fa-calendar"></i> 27 December, 2019</span>
 							</p> -->
-							<p class="excerpt">Drinking juice is the easiest way to increase your consumption of raw fruit and vegetables, which provide critical vitamins, minerals, phytochemicals, living enzymes, and proteins. To achieve the equivalent nutritional value of a 200 ml Satvaras Juice, you would need to eat about 3 to 4 salads a day.</p>
-							<a href="#" class="read-more-btn">read more <i class="fas fa-angle-right"></i></a>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
-					<div class="single-latest-news">
-						<a href="#"><div class="latest-news-bg news-bg-3"></div></a>
-						<div class="news-text-box">
-							<h3><a href="#">Natural nutrition</a></h3>
-							<!-- <p class="blog-meta">
+                <p class="excerpt">
+                  Drinking juice is the easiest way to increase your consumption of raw fruit and vegetables, which
+                  provide critical vitamins, minerals, phytochemicals, living enzymes, and proteins. To achieve the
+                  equivalent nutritional value of a 200 ml Satvaras Juice, you would need to eat about 3 to 4 salads a
+                  day.
+                </p>
+                <a href="#" class="read-more-btn">read more <i class="fas fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
+            <div class="single-latest-news">
+              <a href="#"><div class="latest-news-bg news-bg-3"></div></a>
+              <div class="news-text-box">
+                <h3><a href="#">Natural nutrition</a></h3>
+                <!-- <p class="blog-meta">
 								<span class="author"><i class="fas fa-user"></i> Admin</span>
 								<span class="date"><i class="fas fa-calendar"></i> 27 December, 2019</span>
 							</p> -->
-							<p class="excerpt">95% of the vitamins and enzymes we need are
-								found in the juice of raw produce. Drinking the right juice is better than taking supplements or multivitamins, which do not get absorbed into your body as efficiently.</p>
-							<a href="#" class="read-more-btn">read more <i class="fas fa-angle-right"></i></a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- <div class="row">
+                <p class="excerpt">
+                  95% of the vitamins and enzymes we need are found in the juice of raw produce. Drinking the right
+                  juice is better than taking supplements or multivitamins, which do not get absorbed into your body as
+                  efficiently.
+                </p>
+                <a href="#" class="read-more-btn">read more <i class="fas fa-angle-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="row">
 				<div class="col-lg-12 text-center">
 					<a href="news.html" class="boxed-btn">More News</a>
 				</div>
 			</div> -->
-		</div>
-	</div>
-	<!-- end latest news -->
+      </div>
+    </div>
+    <!-- end latest news -->
 
-	<!-- logo carousel -->
-	<div class="logo-carousel-section">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="logo-carousel-inner">
-						<div class="single-logo-item">
-							<img src="assets/img/company-logos/zomato.png" alt="">
-						</div>
-						<div class="single-logo-item">
-							<img src="assets/img/company-logos/Swiggy.png" alt="">
-						</div>
-						<div class="single-logo-item">
-							<img src="assets/img/company-logos/uber2.png" alt="">
-						</div>
-						<div class="single-logo-item">
-							<img src="assets/img/company-logos/Dunzo.png" alt="">
-						</div>
-						<div class="single-logo-item">
-							<img src="assets/img/company-logos/eatclub.png" alt="">
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- end logo carousel -->
+    <!-- logo carousel -->
+    <div class="logo-carousel-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="logo-carousel-inner">
+              <div class="single-logo-item">
+                <img src="assets/img/company-logos/zomato.png" alt="" />
+              </div>
+              <div class="single-logo-item">
+                <img src="assets/img/company-logos/Swiggy.png" alt="" />
+              </div>
+              <div class="single-logo-item">
+                <img src="assets/img/company-logos/uber2.png" alt="" />
+              </div>
+              <div class="single-logo-item">
+                <img src="assets/img/company-logos/Dunzo.png" alt="" />
+              </div>
+              <div class="single-logo-item">
+                <img src="assets/img/company-logos/eatclub.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end logo carousel -->
 
-	<!-- footer -->
-	<div class="footer-area">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-3 col-md-6">
-					<div class="footer-box about-widget">
-						<h2 class="widget-title">About us</h2>
-						<p>We do not add sugar, water, preservatives, chemicals, or any other additives to our products. To create our cold-pressed juices, we choose only high-quality fruits and vegetables.<p>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="footer-box get-in-touch">
-						<h2 class="widget-title">Get in Touch</h2>
-						<ul>
-							<li>34/8 Handewadi Road ,Pune 411028</li>
-							<li><a href="mailto:fresh.spprt24x7@gmail.com">support@fresh.com</a></li>
-							<li><a href="tel:7420985248">+91 7420985249</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="footer-box pages">
-						<h2 class="widget-title">Pages</h2>
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="about.html">About</a></li>
-							<!-- <li><a href="services.html">Shop</a></li>
+    <!-- footer -->
+    <div class="footer-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-box about-widget">
+              <h2 class="widget-title">About us</h2>
+              <p>
+                We do not add sugar, water, preservatives, chemicals, or any other additives to our products. To create
+                our cold-pressed juices, we choose only high-quality fruits and vegetables.
+              </p>
+              <p></p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-box get-in-touch">
+              <h2 class="widget-title">Get in Touch</h2>
+              <ul>
+                <li>34/8 Handewadi Road ,Pune 411028</li>
+                <li><a href="mailto:fresh.spprt24x7@gmail.com">support@fresh.com</a></li>
+                <li><a href="tel:7420985248">+91 7420985249</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-box pages">
+              <h2 class="widget-title">Pages</h2>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <!-- <li><a href="services.html">Shop</a></li>
 							<li><a href="news.html">News</a></li> -->
-							<li><a href="contact.html">Contact</a></li>
-						</ul>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="footer-box subscribe">
-						<h2 class="widget-title">Subscribe</h2>
-						<p>Subscribe to our mailing list to get the latest updates.</p>
-						<form action="index.html">
-							<input type="email" placeholder="Email">
-							<button type="submit"><i class="fas fa-paper-plane"></i></button>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- end footer -->
-	
-	<!-- copyright -->
-	<div class="copyright">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 col-md-12">
-					<p>Copyrights &copy; 2025 - <a href="#">Fresh</a>,  All Rights Reserved.</p>
-				</div>
-				<div class="col-lg-6 text-right col-md-12">
-					<div class="social-icons">
-						<ul>
-							<li><a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-							<li><a href="https://web.whatsapp.com/send?phone=+91 7420985248" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
-							<li><a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-							<!-- <li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li> -->
-							<!-- <li><a href="#" target="_blank"><i class="fab fa-dribbble"></i></a></li> -->
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- end copyright -->
-	
-	<!-- jquery -->
-	<script src="assets/js/jquery-1.11.3.min.js"></script>
-	<!-- bootstrap -->
-	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-	<!-- count down -->
-	<script src="assets/js/jquery.countdown.js"></script>
-	<!-- isotope -->
-	<script src="assets/js/jquery.isotope-3.0.6.min.js"></script>
-	<!-- waypoints -->
-	<script src="assets/js/waypoints.js"></script>
-	<!-- owl carousel -->
-	<script src="assets/js/owl.carousel.min.js"></script>
-	<!-- magnific popup -->
-	<script src="assets/js/jquery.magnific-popup.min.js"></script>
-	<!-- mean menu -->
-	<script src="assets/js/jquery.meanmenu.min.js"></script>
-	<!-- sticker js -->
-	<script src="assets/js/sticker.js"></script>
-	<!-- main js -->
-	<script src="assets/js/main.js"></script>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-box subscribe">
+              <h2 class="widget-title">Subscribe</h2>
+              <p>Subscribe to our mailing list to get the latest updates.</p>
+              <form action="index.html">
+                <input type="email" placeholder="Email" />
+                <button type="submit"><i class="fas fa-paper-plane"></i></button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end footer -->
 
-</body>
+    <!-- copyright -->
+    <div class="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12">
+            <p>Copyrights &copy; 2025 - <a href="#">Fresh</a>, All Rights Reserved.</p>
+          </div>
+          <div class="col-lg-6 text-right col-md-12">
+            <div class="social-icons">
+              <ul>
+                <li>
+                  <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="https://web.whatsapp.com/send?phone=+91 7420985248" target="_blank"
+                    ><i class="fab fa-whatsapp"></i
+                  ></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </li>
+                <!-- <li><a href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li> -->
+                <!-- <li><a href="#" target="_blank"><i class="fab fa-dribbble"></i></a></li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end copyright -->
+
+    <!-- jquery -->
+    <script src="assets/js/jquery-1.11.3.min.js"></script>
+    <!-- bootstrap -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <!-- count down -->
+    <script src="assets/js/jquery.countdown.js"></script>
+    <!-- isotope -->
+    <script src="assets/js/jquery.isotope-3.0.6.min.js"></script>
+    <!-- waypoints -->
+    <script src="assets/js/waypoints.js"></script>
+    <!-- owl carousel -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- magnific popup -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- mean menu -->
+    <script src="assets/js/jquery.meanmenu.min.js"></script>
+    <!-- sticker js -->
+    <script src="assets/js/sticker.js"></script>
+    <!-- main js -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
