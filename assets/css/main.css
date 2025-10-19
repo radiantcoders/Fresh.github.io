@@ -550,11 +550,13 @@ a.navbar-brand img {
 nav.main-menu ul {
   margin: 0;
   padding: 0;
+  padding-top: 15px;
   list-style: none;
 }
 
 nav.main-menu ul li {
   display: inline-block;
+  font-size: larger;
 }
 
 nav.main-menu ul li a {
@@ -562,6 +564,22 @@ nav.main-menu ul li a {
   font-weight: 700;
   display: block;
   padding: 15px;
+  padding-bottom: 7px;
+  position: relative;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+nav.main-menu ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  width: 0;
+  height: 3px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, #ffb347, #ffcc33, #f28123);
+  transition: width 0.3s ease;
 }
 
 nav.main-menu ul > li {
@@ -696,7 +714,13 @@ nav.main-menu ul li.current-list-item > a {
 }
 
 nav.main-menu li:hover > a {
-  color: #F28123;
+  background: linear-gradient(90deg, #ffb347, #ffcc33, #f28123);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+nav.main-menu li:hover > a::after {
+  width: 100%;
 }
 
 nav.main-menu li a {
@@ -866,7 +890,7 @@ a.mobile-show {
 .footer-area {
   background-color: #051922;
   color: #fff;
-  padding: 150px 0;
+  padding: 60px 0;
 }
 
 h2.widget-title {
@@ -937,6 +961,7 @@ h2.widget-title:after {
 .copyright {
   background-color: #051922;
   border-top: 1px solid #232a35;
+  padding: 16px 0;
 }
 
 .copyright p {
